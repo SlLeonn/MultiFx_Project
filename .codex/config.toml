@@ -1,3 +1,0 @@
-# Project preference; available effort levels depend on the model and client.
-# Requires project trust. Session options may take precedence.
-model_reasoning_effort = "high"
