@@ -41,6 +41,12 @@ Earlier ESP32-S3 / ES8388 proposals are historical alternatives, not the current
 
 The source material is a technical continuity document dated 2026-10-20 and Elecia White's *Making Embedded Systems*, 2024 edition. The former supplies project history; the latter supplies engineering guidance, not evidence that this hardware works. This baseline contains no new bench measurements.
 
+## Architecture documentation
+
+The [IEEE LaTeX report](../docs/system-architecture.tex) records the proposed context, hardware blocks, and software dependencies, following Chapter 2 of White's book. Its three TikZ diagrams and interface table distinguish component restrictions, proposed responsibilities, manufacturer capabilities, and pending verification. This is a documentation outcome; the phase remains active and no new physical results are claimed.
+
+Source reviewed; compilation and PDF visual checks remain pending in Overleaf because no native LaTeX compiler was found in the inspected environment. Verify resolved references, a 3–4-page PDF, and legible figures without clipping or overlap after compilation.
+
 ## Open questions and next objective
 
 Establish a verified audio and control foundation before committing to a main PCB:

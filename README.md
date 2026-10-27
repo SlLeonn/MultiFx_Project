@@ -32,6 +32,12 @@ The fixed component rule is to use the professor's Altium library for the main P
 
 **Next milestone:** verify the actual hardware and library, then demonstrate clean audio, autonomous DSP startup, and a parameter change from an external controller before committing to the main PCB design. Define measurable acceptance conditions before each bench test.
 
+## Architecture report
+
+The [IEEE LaTeX report](docs/system-architecture.tex) presents the context diagram, hardware block diagram, and software organigram. It describes the proposed architecture; hardware verification remains pending.
+
+To compile, upload the single `.tex` file to the root of a blank Overleaf project, [set it as the main document](https://docs.overleaf.com/getting-started/recompiling-your-project/the-main-document), select **pdfLaTeX**, and recompile until references resolve. Check that the PDF has 3–4 pages and legible figures without overlap or clipping. No native LaTeX compiler was found in the inspected environment; compilation, page count, and PDF visual validation remain pending in Overleaf.
+
 ## Repository growth
 
 Create each technical directory when its first real artifact exists:
