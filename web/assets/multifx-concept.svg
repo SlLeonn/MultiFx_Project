@@ -1,0 +1,136 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 760" width="960" height="760" role="img" aria-labelledby="title description">
+  <title id="title">MultiFX amplifier enclosure concept</title>
+  <desc id="description">An original conceptual three-quarter visualization of a compact charcoal guitar amplifier, with four knobs, two buttons and a perforated speaker grille. This is an enclosure study, not a representation of a fabricated prototype.</desc>
+  <defs>
+    <linearGradient id="top" x1="0" y1="0" x2=".65" y2="1">
+      <stop stop-color="#56585b"/>
+      <stop offset=".45" stop-color="#343639"/>
+      <stop offset="1" stop-color="#25272a"/>
+    </linearGradient>
+    <linearGradient id="side" x1="0" y1="0" x2="1" y2=".3">
+      <stop stop-color="#15171a"/>
+      <stop offset=".72" stop-color="#2b2d30"/>
+      <stop offset="1" stop-color="#3c3e41"/>
+    </linearGradient>
+    <linearGradient id="front" x1="0" y1="0" x2=".3" y2="1">
+      <stop stop-color="#333538"/>
+      <stop offset=".28" stop-color="#202225"/>
+      <stop offset="1" stop-color="#181a1d"/>
+    </linearGradient>
+    <linearGradient id="panel" x1="0" y1="0" x2="0" y2="1">
+      <stop stop-color="#232529"/>
+      <stop offset="1" stop-color="#16181b"/>
+    </linearGradient>
+    <linearGradient id="grille" x1="0" y1="0" x2=".6" y2="1">
+      <stop stop-color="#66686c"/>
+      <stop offset=".48" stop-color="#45474b"/>
+      <stop offset="1" stop-color="#303237"/>
+    </linearGradient>
+    <linearGradient id="knob" x1="0" y1="0" x2=".8" y2="1">
+      <stop stop-color="#707276"/>
+      <stop offset=".3" stop-color="#37393d"/>
+      <stop offset="1" stop-color="#17191c"/>
+    </linearGradient>
+    <linearGradient id="handle" x1="0" y1="0" x2="0" y2="1">
+      <stop stop-color="#343639"/>
+      <stop offset="1" stop-color="#111315"/>
+    </linearGradient>
+    <radialGradient id="cone" cx=".42" cy=".36" r=".65">
+      <stop stop-color="#313438"/>
+      <stop offset=".38" stop-color="#17191d"/>
+      <stop offset=".68" stop-color="#36393d"/>
+      <stop offset=".85" stop-color="#1f2226"/>
+      <stop offset="1" stop-color="#0c0e10"/>
+    </radialGradient>
+    <radialGradient id="cap" cx=".35" cy=".25" r=".75">
+      <stop stop-color="#3a3d41"/>
+      <stop offset="1" stop-color="#101215"/>
+    </radialGradient>
+    <filter id="cast-shadow" x="-25%" y="-150%" width="150%" height="400%">
+      <feGaussianBlur stdDeviation="14"/>
+    </filter>
+    <filter id="contact-shadow" x="-20%" y="-150%" width="140%" height="400%">
+      <feGaussianBlur stdDeviation="4"/>
+    </filter>
+    <pattern id="perforation" width="6" height="6" patternUnits="userSpaceOnUse">
+      <path fill="#fff" d="M0 0h6v6H0z"/>
+      <circle cx="3" cy="3" r="2.18" fill="#000"/>
+    </pattern>
+    <pattern id="grain" width="4" height="4" patternUnits="userSpaceOnUse">
+      <path d="M0 .5h4M0 2.5h4" stroke="#fff" stroke-opacity=".026" stroke-width=".5"/>
+    </pattern>
+    <clipPath id="front-clip">
+      <rect x="180" y="282" width="520" height="330" rx="17"/>
+    </clipPath>
+    <clipPath id="speaker-clip">
+      <rect x="202" y="364" width="476" height="224" rx="10"/>
+    </clipPath>
+    <mask id="mesh-mask" x="202" y="364" width="476" height="224" maskUnits="userSpaceOnUse">
+      <rect x="202" y="364" width="476" height="224" fill="url(#perforation)"/>
+    </mask>
+    <g id="dial">
+      <ellipse cy="3" rx="15.5" ry="16" fill="#060708" opacity=".55"/>
+      <circle r="14" fill="url(#knob)" stroke="#77797d" stroke-width=".65"/>
+      <circle r="10.5" fill="#26282c" stroke="#111316" stroke-width=".5"/>
+      <path d="M0-10v5.2" stroke="#e9e9e6" stroke-width="1.6" stroke-linecap="round"/>
+      <path d="M-8.4-8.4a12 12 0 0 1 16.8 0" fill="none" stroke="#b0b1b3" stroke-opacity=".32" stroke-width=".6"/>
+    </g>
+    <g id="screw">
+      <circle r="3" fill="#101215" stroke="#515358" stroke-width=".55"/>
+      <path d="m-1.3 1.3 2.6-2.6" stroke="#77797d" stroke-width=".6"/>
+    </g>
+  </defs>
+
+  <ellipse cx="480" cy="651" rx="287" ry="25" fill="#000" opacity=".13" filter="url(#cast-shadow)"/>
+  <ellipse cx="444" cy="630" rx="233" ry="8" fill="#000" opacity=".17" filter="url(#contact-shadow)"/>
+  <path d="M226 603h36v25q-18 6-36 0zm392 0h36v25q-18 6-36 0z" fill="#101214"/>
+  <path d="m696 299 78-79v312q0 9-7 17l-76 73z" fill="url(#side)" stroke="#27292c" stroke-width="1"/>
+  <path d="m188 285 72-73q8-8 22-8h475q18 0 17 16l-74 80z" fill="url(#top)" stroke="#484a4d" stroke-width="1"/>
+  <path d="m202 280 65-65h486" fill="none" stroke="#a5a7a9" stroke-opacity=".32" stroke-width="1"/>
+  <path d="m719 310 40-40v240l-40 41" fill="none" stroke="#77797d" stroke-opacity=".14" stroke-width="1"/>
+  <path d="m737 298 21-21v220l-21 22z" fill="#101215" opacity=".25"/>
+
+  <path d="m389 259 17-17h34l-17 17zm147 0 17-17h34l-17 17z" fill="#151719" stroke="#4b4d50" stroke-width=".6"/>
+  <path d="m411 247 15-26q5-8 15-8h110q11 0 8 9l-14 25" fill="none" stroke="#111315" stroke-width="16" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="m411 245 16-25q3-5 13-5h110q8 0 6 5l-13 24" fill="none" stroke="url(#handle)" stroke-width="11" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="m432 218 116 0" stroke="#686a6d" stroke-opacity=".28" stroke-width="1" stroke-linecap="round"/>
+
+  <rect x="180" y="282" width="520" height="330" rx="17" fill="url(#front)" stroke="#111315" stroke-width="1.2"/>
+  <rect x="182" y="284" width="516" height="326" rx="15" fill="url(#grain)" clip-path="url(#front-clip)"/>
+  <path d="M198 284h484q16 0 16 16" fill="none" stroke="#b2b3b5" stroke-opacity=".27" stroke-width="1"/>
+  <rect x="202" y="302" width="476" height="47" rx="7" fill="url(#panel)" stroke="#4b4d51" stroke-width=".65"/>
+  <text x="217" y="332" fill="#f3f3f0" font-family="Arial, Helvetica, sans-serif" font-size="23" font-weight="700" letter-spacing="-1.2">MultiFX.</text>
+  <path d="M340 312v27" stroke="#4f5155" stroke-width=".65"/>
+  <use href="#dial" transform="translate(379 325) rotate(-24)"/>
+  <use href="#dial" transform="translate(426 325) rotate(17)"/>
+  <use href="#dial" transform="translate(473 325) rotate(-8)"/>
+  <use href="#dial" transform="translate(520 325) rotate(32)"/>
+  <path d="M550 312v27" stroke="#4f5155" stroke-width=".65"/>
+  <g fill="#15171a" stroke="#77797b" stroke-width=".7">
+    <circle cx="583" cy="326" r="8.5"/>
+    <circle cx="618" cy="326" r="8.5"/>
+  </g>
+  <circle cx="583" cy="326" r="5.8" fill="#36383b"/>
+  <circle cx="618" cy="326" r="5.8" fill="#25272b"/>
+  <circle cx="651" cy="326" r="2.4" fill="#dedfd9"/>
+  <circle cx="651" cy="325.5" r="1" fill="#fff"/>
+
+  <rect x="200" y="362" width="480" height="228" rx="12" fill="#0b0d0f" stroke="#63666a" stroke-width=".7"/>
+  <g clip-path="url(#speaker-clip)">
+    <path fill="#181b1e" d="M202 364h476v224H202z"/>
+    <circle cx="440" cy="477" r="112" fill="#0d0f12" stroke="#393c41" stroke-width="7"/>
+    <circle cx="440" cy="477" r="99" fill="url(#cone)" stroke="#55585c" stroke-width=".8"/>
+    <circle cx="440" cy="477" r="87" fill="none" stroke="#45484c" stroke-width="2"/>
+    <circle cx="440" cy="477" r="73" fill="none" stroke="#101216" stroke-width="1.5" opacity=".6"/>
+    <circle cx="440" cy="477" r="34" fill="url(#cap)" stroke="#414449" stroke-width=".8"/>
+  </g>
+  <rect x="202" y="364" width="476" height="224" rx="10" fill="url(#grille)" mask="url(#mesh-mask)"/>
+  <path d="M212 364h456" stroke="#a2a4a7" stroke-opacity=".4" stroke-width=".6"/>
+  <use href="#screw" x="211" y="374"/>
+  <use href="#screw" x="669" y="374"/>
+  <use href="#screw" x="211" y="578"/>
+  <use href="#screw" x="669" y="578"/>
+  <path d="M214 602h452" stroke="#77797c" stroke-opacity=".2" stroke-width=".6"/>
+  <text x="216" y="602" fill="#939598" font-family="Arial, Helvetica, sans-serif" font-size="5.8" letter-spacing="1.7">ENCLOSURE STUDY — 01</text>
+  <path d="M688 315v271q0 11-8 15" fill="none" stroke="#a0a2a4" stroke-opacity=".1" stroke-width="1"/>
+</svg>

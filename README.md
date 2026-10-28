@@ -4,7 +4,7 @@ A compact guitar practice amplifier with digital effects and simple physical con
 
 Developed as an Electronic Design project at Universidad Nacional de Colombia. This repository will document the progression from engineering assumptions to measured prototype behavior.
 
-**Current phase:** [00 — Project baseline](context/00-project-baseline.md).
+**Current phase:** 00 — Project baseline. Working notes are kept locally in `context/00-project-baseline.md`.
 
 ## Proposed architecture
 
@@ -38,9 +38,21 @@ The [IEEE LaTeX report](docs/system-architecture.tex) presents the context diagr
 
 To compile, upload the single `.tex` file to the root of a blank Overleaf project, [set it as the main document](https://docs.overleaf.com/getting-started/recompiling-your-project/the-main-document), select **pdfLaTeX**, and recompile until references resolve. Check that the PDF has 3–4 pages and legible figures without overlap or clipping. No native LaTeX compiler was found in the inspected environment; compilation, page count, and PDF visual validation remain pending in Overleaf.
 
+## Project website
+
+The [website source](web/index.html) is a buildless HTML/CSS/JavaScript presentation of the project, with a white-and-black visual direction inspired by [Duo Case](https://www.duocase.lol/) and [RUSHES.](https://www.framer.com/marketplace/templates/rushes/). Space Grotesk and Inter load from Google Fonts, with system-font fallbacks. The original enclosure illustration is conceptual; the website distinguishes planned behavior from verified hardware results.
+
+Preview locally from the repository root:
+
+```powershell
+python -m http.server 8000 --directory web
+```
+
+Open `http://localhost:8000`. To publish, select **Settings → Pages → Build and deployment → Source: GitHub Actions** in the GitHub repository, then commit and push the website and workflow to `main`. The workflow deploys only `web/` and reports the published URL after a successful run; deployment has not yet been verified.
+
 ## Repository growth
 
-Create each technical directory when its first real artifact exists:
+The technical directories are organized as follows:
 
 | Directory | Purpose |
 |---|---|
@@ -48,9 +60,10 @@ Create each technical directory when its first real artifact exists:
 | `firmware/` | Controller code and relevant checks. |
 | `dsp/` | SigmaStudio project and required integration exports. |
 | `docs/` | Validation results, diagrams, photographs, and demonstrations. |
+| `web/` | Static project website and its visual assets. |
 
-`context/` preserves continuity between phases. Maintain one `NN-phase-name.md` file per phase, update it while active, and close it with outcomes and remaining questions. Keep this README linked to the current phase and the strongest project evidence as it becomes available.
+Empty technical directories are kept locally and enter version control when they contain project artifacts. Local `context/` notes preserve continuity between phases; this README presents the current status and links to project evidence as it becomes available.
 
 Keep durable technical explanations beside their artifacts. Label calculations, simulations, software checks, and physical measurements accurately; proposed performance is not a measured result.
 
-Contributor and agent working rules are in [AGENTS.md](AGENTS.md). Original reference material remains local and is excluded from version control.
+Agent configuration, working instructions, phase context, and original reference material remain local and are excluded from version control.

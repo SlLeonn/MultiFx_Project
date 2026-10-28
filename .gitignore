@@ -1,2 +1,9 @@
 # Original documents and other local reference material.
 /references/
+
+# Local agent configuration, working instructions, and phase context.
+/.agents/
+/.codex/
+/context/
+/AGENTS.md
+/agents.md
