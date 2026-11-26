@@ -1,0 +1,3 @@
+Layer Pairs Export File for PCB: C:\Users\javie\OneDrive\Documentos\UNAL\2026-2\Diseño Electronico\MultiFx_Project\Portable_Guitar_MultiFX\Portable_Guitar_MultiFX.PcbDoc
+LayersSetName=Top_Bot_Plated_Thru_Holes|DrillFile=portable_guitar_multifx-roundholes-plated.txt|DrillLayers=gtl,gbl
+LayersSetName=Top_Bot_Plated_Slot_Holes|DrillFile=portable_guitar_multifx-slotholes-plated.txt|DrillLayers=gtl,gbl

@@ -1,0 +1,19 @@
+# Keep maintained text consistent across platforms.
+* text=auto
+.gitattributes text eol=lf
+.gitignore text eol=lf
+*.md text eol=lf
+*.html text eol=lf
+*.css text eol=lf
+*.js text eol=lf
+*.yml text eol=lf
+*.svg text eol=lf
+
+# Preserve supplied CAD documents, manufacturing outputs, and archives byte for byte.
+hardware/altium/** -text -whitespace
+hardware/outputs/** -text -whitespace
+hardware/archive/** -text -whitespace
+*.pdf binary
+*.png binary
+*.xlsx binary
+*.zip binary

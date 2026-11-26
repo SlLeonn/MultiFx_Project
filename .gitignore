@@ -7,3 +7,19 @@
 /context/
 /AGENTS.md
 /agents.md
+
+# Altium local history, previews, logs, and generated hierarchy caches.
+**/History/
+**/__Previews/
+**/Project Logs for */
+*.PrjPcbStructure
+*.SchDocPreview
+*.PcbDocPreview
+
+# Editor, operating-system, and temporary working files.
+~$*
+*.tmp
+*.bak
+.DS_Store
+Thumbs.db
+desktop.ini
