@@ -43,6 +43,8 @@ Clean/drive operation and equalization are the intended software scope. These ar
 
 Read the [hardware guide](hardware/README.md) for the sheet map, opening instructions, dependencies, and checks to complete before manufacturing. The supplied fabrication package is a dated export; its consistency with the final editable PCB and a clean DRC result have not been established in this repository.
 
+The [application note — PDF](docs/application-note/application-note.pdf) explains the design calculations, interfaces, staged bring-up, and validation protocol. Its [LaTeX source and analysis](docs/application-note/README.md) are reproducible; this revision precedes fabrication and contains no measured prototype results.
+
 ## Repository map
 
 ```text
@@ -50,7 +52,7 @@ hardware/
   altium/       Authoritative project and linked Draftsman document
   outputs/      Schematic PDF, BOM, fabrication ZIP, and STEP model
   archive/      Original delivery snapshots and submission archive
-docs/           Earlier architecture report and presentation assets
+docs/           Application note, earlier studies, and presentation assets
 web/            Static project website
 ```
 
@@ -60,7 +62,7 @@ All supplied design files and archives are preserved. Earlier PCB copies are ret
 
 The [documentation index](docs/README.md) links the initial architecture report and feasibility study. Those documents record earlier decisions, including superseded component choices; the current hardware guide describes the delivered design.
 
-The remaining work is fabrication, assembly, firmware/DSP integration, and recorded electrical and audio validation. Current local phase notes: `context/01-hardware-handoff.md`.
+The remaining work is fabrication, assembly, firmware/DSP integration, and recorded electrical and audio validation. Current local phase notes: `context/02-application-note.md`.
 
 ## Website
 

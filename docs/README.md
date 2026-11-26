@@ -2,6 +2,10 @@
 
 The [hardware guide](../hardware/README.md) and [schematic PDF](../hardware/outputs/schematics/Schematics.pdf) describe the delivered PCB design. Fabrication, assembly, and physical validation are pending.
 
+## Application note
+
+[MFX-AN-001 — PDF](application-note/application-note.pdf) / [LaTeX and reproducible analysis](application-note/README.md): an 11-page pre-fabrication guide to the 5 V MCP6002/STM32/TSA1701/PAM8302 design. It includes analytical response and margins, verified board-side connections, staged bring-up, PCB implementation, and a planned test protocol. Calculations and manufacturer specifications are distinguished from measurements that remain pending.
+
 ## Earlier studies
 
 | Document | Scope and status |

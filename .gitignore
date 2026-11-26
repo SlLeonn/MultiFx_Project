@@ -23,3 +23,11 @@
 .DS_Store
 Thumbs.db
 desktop.ini
+
+# LaTeX build intermediates; keep the application-note PDF and analysis data.
+*.aux
+*.out
+*.toc
+*.synctex.gz
+*.xdv
+/docs/application-note/*.log
